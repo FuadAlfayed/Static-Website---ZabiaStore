@@ -1,0 +1,14 @@
+body {
+    background-image: url(background.jpg);
+    color: rgb(8, 7, 7);
+}
+table {
+    color: #fff;
+    border-collapse: collapse;
+    border: 1px solid #f2f5f7;
+}
+table tr {
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    text-decoration: none;
+}

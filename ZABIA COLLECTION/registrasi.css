@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+img {
+    position: relative;
+    padding-left: 90px;
+    float: left;
+}
+
+.container {
+    padding: 16px;
+    background-color: white;
+    font-family: 'sen', sans-serif;
+    float: right;
+    padding-right: 8%;
+}
+
+
+/* Full-width input fields */
+
+input[type=text],
+input[type=password],
+input[type=number] {
+    height: 50px;
+    width: 25rem;
+    border-radius: 10px;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=number]:focus {
+    height: 50px;
+    width: 25rem;
+    border-radius: 10px;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 20px;
+}
+
+.registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    width: 25rem;
+    transition: .2s ease-in;
+    font-family: 'sen', sans-serif;
+    border-radius: 5px;
+}
+
+.registerbtn:hover {
+    opacity: 0.8;
+    background-color: black;
+    color: white;
+}
+
+.container signin {
+    float: right;
+}

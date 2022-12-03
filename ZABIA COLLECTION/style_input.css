@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-left: 32rem;
+    font-family: 'sen', sans-serif;
+    margin-top: -25px;
+}
+
+.background form {
+    padding: 25px 35px;
+    font-family: 'sen', sans-serif;
+    font-size: 20px;
+    margin-left: 27rem;
+    font-weight: bold;
+    margin-top: -15px;
+}
+
+.background input {
+    height: 35px;
+    width: 30rem;
+    margin-top: 15px;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+
+.background select {
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.background a {
+    text-decoration: none;
+    font-family: 'sen', sans-serif;
+    font-size: 18px;
+    float: right;
+    padding: 60px;
+    color: black;
+}
+
+.button1 {
+    height: 45px;
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 10rem;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+    position: block;
+    transition: .3s ease-in;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.button2 {
+    height: 45px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10rem;
+    border-radius: 15px;
+    position: block;
+    border: none;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: .3s ease-in;
+}
+
+.button1:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.button2:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
